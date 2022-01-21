@@ -1,0 +1,116 @@
+@media screen and (max-width:1024px) {
+    .navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 1200px;
+    height: 70px;
+    color: white;
+    padding: 0;
+  }
+
+  .navbar li {
+    font-size: 50px;
+    text-emphasis: uppercase;
+    font-weight: bold;
+    padding: 15px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .item1 {
+    flex-shrink: 2;
+  }
+  
+}
+
+@media screen and (min-width:1025px) {
+  .navbar{
+    visibility: hidden;
+  }
+  
+}
+
+
+body {
+  width: 1292px;
+  margin: auto;
+}
+
+#header {
+  width: 100%;
+  height: 407px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+}
+
+.head {
+  position: relative;
+  top: 67%;
+  left: 250px;
+  font-family: Abril Fatface;
+  color: #222;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  line-height: 2em;
+}
+
+div,
+blockquote {
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 150%;
+}
+
+li,
+.intro p,
+.achievements p {
+  font-family: Josefin Sans;
+}
+
+h2,
+h3 {
+  font-family: Merriweather;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+.experience p,
+.training p {
+  font-family: Merriweather;
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+blockquote {
+  font-family: Abril Fatface;
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  padding: 30px;
+  width: 800px;
+  text-align: left;
+}
+
+blockquote::before {
+  content: "”";
+}
+
+.interest h2 {
+  margin-top: 5%;
+  padding-top: 5%;
+  border-top: 5px black solid;
+}
